@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "defaultMode": "default",
+    "allow": [
+      "Bash(python .claude/skills/foot-go/scripts/check_prompt.py *)",
+      "PowerShell(python .claude/skills/foot-go/scripts/check_prompt.py *)",
+      "Edit(./livrables/**)"
+    ],
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Read(./data/**)",
+      "Read(./tests/**)",
+      "Edit(./data/**)",
+      "Edit(./.claude/**)",
+      "Edit(./tests/**)",
+      "Edit(./CLAUDE.md)",
+      "Edit(./README.md)",
+      "Edit(./.gitignore)",
+      "WebFetch",
+      "WebSearch",
+      "Bash(git push *)",
+      "Bash(git push)",
+      "Bash(git merge *)",
+      "Bash(rm *)",
+      "Bash(curl *)",
+      "Bash(wget *)",
+      "PowerShell(git push *)",
+      "PowerShell(git push)",
+      "PowerShell(git merge *)",
+      "PowerShell(rm *)",
+      "PowerShell(curl *)",
+      "PowerShell(wget *)",
+      "PowerShell(Remove-Item *)",
+      "PowerShell(del *)",
+      "PowerShell(Invoke-WebRequest *)",
+      "PowerShell(Invoke-RestMethod *)",
+      "PowerShell(iwr *)",
+      "PowerShell(irm *)"
+    ]
+  }
+}

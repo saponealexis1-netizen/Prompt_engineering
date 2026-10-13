@@ -1,0 +1,1 @@
+Ce dossier reçoit le travail de l'agent : `DEMANDE.md` (la demande, mot pour mot) et `GO.md` (le prompt produit). Aucun fichier n'est fourni d'avance, pour ne pas truquer le test de génération ; les deux fichiers produits ne sont pas versionnés.
